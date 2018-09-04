@@ -36,7 +36,6 @@ body {
     left: 40px;
     right: 40px;
     bottom: 40px;
-    /* background: #fff; */
 }
 
 .caption:before {
@@ -81,5 +80,26 @@ body {
     transform: translateY(-50%);
     z-index: 1;
     padding: 20px;
+    text-align: center;
+    opacity: 0;
     transition: 0.5s;
+}
+
+.picture:hover .about {
+    opacity: 1;
+}
+
+.about h2 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.about p {
+    color: #fff;
+    margin: 20 0 0;
+    padding: 0;
+    font-size: 16px;
 }
